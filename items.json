@@ -1,14 +1,30 @@
 [
   {
-    "label": "Organize files",
-    "checked": true
+    "label": "create a cv template",
+    "checked": false
   },
   {
-    "label": "Review tasks",
-    "checked": true
+    "label": "update imput file",
+    "checked": false
   },
   {
-    "label": "New item",
-    "checked": true
+    "label": "write a report",
+    "checked": false
+  },
+  {
+    "label": "add list >> to ",
+    "checked": false
+  },
+  {
+    "label": "The Infected Blood Compensation Authority (IBCA)",
+    "checked": false
+  },
+  {
+    "label": "",
+    "checked": false
+  },
+  {
+    "label": "",
+    "checked": false
   }
 ]

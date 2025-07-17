@@ -13,10 +13,11 @@ function createWindow() {
     transparent: true,
     resizable: true,
     vibrancy: 'ultra-dark',
+    icon: path.join(__dirname, 'assets/icons/png/64x64.png'), // ← Your custom icon
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
-      nodeIntegration: false
+      nodeIntegration: true
     }
   });
 

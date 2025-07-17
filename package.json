@@ -1,11 +1,38 @@
 {
   "name": "organeeezer",
   "version": "1.0.0",
+  "description": "An app to organize and mask structured data like XML.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder"
   },
-  "dependencies": {
-    "electron": "^29.0.0"
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.3.0"
+  },
+  "build": {
+    "appId": "com.organeeezer.app",
+    "productName": "Organeeezer",
+    "files": [
+      "**/*",
+      "!/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
+      "!**/*.map"
+    ],
+    "directories": {
+      "buildResources": "build"
+    },
+    "mac": {
+      "icon": "build/organeeezer_icon.icns",
+      "target": ["dmg", "zip"]
+    },
+    "win": {
+      "icon": "build/organeeezer_icon.ico",
+      "target": ["nsis"]
+    },
+    "linux": {
+      "icon": "build/icons",
+      "target": ["AppImage", "deb"]
+    }
   }
 }
