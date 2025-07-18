@@ -1,22 +1,6 @@
 [
   {
-    "label": "update a cv template",
+    "label": "uempty task",
     "checked": true
-  },
-  {
-    "label": "update input csv file",
-    "checked": true
-  },
-  {
-    "label": "write a report and send it to the recipints",
-    "checked": false
-  },
-  {
-    "label": "answer Sharisse",
-    "checked": false
-  },
-  {
-    "label": "plan the day",
-    "checked": false
   }
 ]
