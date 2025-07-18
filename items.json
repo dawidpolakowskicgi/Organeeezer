@@ -1,30 +1,22 @@
 [
   {
-    "label": "create a cv template",
+    "label": "update a cv template",
+    "checked": true
+  },
+  {
+    "label": "update input csv file",
+    "checked": true
+  },
+  {
+    "label": "write a report and send it to the recipints",
     "checked": false
   },
   {
-    "label": "update imput file",
+    "label": "answer Sharisse",
     "checked": false
   },
   {
-    "label": "write a report",
-    "checked": false
-  },
-  {
-    "label": "add list >> to ",
-    "checked": false
-  },
-  {
-    "label": "The Infected Blood Compensation Authority (IBCA)",
-    "checked": false
-  },
-  {
-    "label": "",
-    "checked": false
-  },
-  {
-    "label": "",
+    "label": "plan the day",
     "checked": false
   }
 ]

@@ -64,11 +64,10 @@ body {
   font-size: 14px;
   margin-left: 10px;
   cursor: pointer;
-  border-radius: 6px; /* Add this line */
-
-
+  border-radius: 6px;
 }
 
 .delete-button:hover {
   background: orange;
+  color: black;
 }
