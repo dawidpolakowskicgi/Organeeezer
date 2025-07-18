@@ -1,6 +1,6 @@
 # Organeeezer
 
-<img src="images/app-screenshot.png" alt="Organeeezer Screenshot" width="400"/>
+<img src="images/image.png" alt="Organeeezer Screenshot" width="400"/>
 
 Organeeezer is a simple and modern checklist app designed to help you organize your daily tasks efficiently.  
 It features a clean dark interface, editable task items, and easy task management with delete and check options.  
@@ -23,7 +23,7 @@ The app uses a JSON file to store your tasks and is styled for clarity and usabi
 
 See the app in action:
 
-<img src="images/app-screenshot.png" alt="Organeeezer Screenshot" width="400"/>
+<img src="images/image.png" alt="Organeeezer Screenshot" width="400"/>
 
 ---
 
