@@ -23,8 +23,18 @@ function render() {
       window.api.saveItems(items);
     });
 
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'x';
+    deleteButton.classList.add('delete-button');
+    deleteButton.addEventListener('click', () => {
+      items.splice(index, 1);
+      window.api.saveItems(items);
+      render();
+    });
+
     li.appendChild(checkbox);
     li.appendChild(input);
+    li.appendChild(deleteButton);
     itemsList.appendChild(li);
   });
 }

@@ -13,7 +13,7 @@ function createWindow() {
     transparent: true,
     resizable: true,
     vibrancy: 'ultra-dark',
-    icon: path.join(__dirname, 'assets/icons/png/64x64.png'), // ← Your custom icon
+    icon: path.join(__dirname, 'build/icons/organeeezer_icon_256x256.png'), // ← Your custom icon
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       contextIsolation: true,
@@ -21,8 +21,9 @@ function createWindow() {
     }
   });
 
-  win.setBounds({ x: 100, y: 100, width: 600, height: 400 });
+  win.setBounds({ x: 100, y: 100, width: 500, height: 600 });
   win.loadFile('index.html');
+  // win.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow);
@@ -45,3 +46,4 @@ ipcMain.on('minimize-window', () => {
   const win = BrowserWindow.getFocusedWindow();
   if (win) win.minimize();
 });
+
